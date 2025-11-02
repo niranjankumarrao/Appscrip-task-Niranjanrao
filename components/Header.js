@@ -3,7 +3,7 @@ export default function Header() {
   return (
     <header className="site-header">
       <div className="inner">
-        <div className="logo">NIRANJAN</div>
+        <div className="logo">Logo</div>
         <nav className="nav">
           <a>Shop</a>
           <a>Design</a>
