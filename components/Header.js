@@ -13,7 +13,7 @@ export default function Header() {
         <div className="icons">🔍 🧡 🛒</div>
       </div>
      <div>
-        <h2>DISCOVER OUR PRODUCTS</h2>
+        <h2 className="subheading">DISCOVER OUR PRODUCTS</h2>
      </div>
 
       <style jsx>{`
