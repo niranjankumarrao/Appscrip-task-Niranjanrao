@@ -31,4 +31,4 @@ This is a fresher-style implementation — kept intentionally simple and easy to
 
 ---
 
-Prepared by Niranjan.  (Simple, honest and hand-coded.)
+Prepared by Niranjan. 
