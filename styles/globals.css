@@ -41,3 +41,27 @@ button { font-family:inherit; }
   text-transform: uppercase;
  }
 }
+@media (min-width: 600px){
+  .subpara {
+  font-family: Simplon Norm;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 22px;
+  leading-trim: NONE;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: center;
+ }
+}
+@media (max-width: 599px){
+  .subpara {
+  font-family: Simplon Norm;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+ }
+}
