@@ -4,13 +4,15 @@ export default function Header() {
     <header className="site-header">
       <div className="inner">
         <div className="logo">Logo</div>
-        <nav className="nav">
-          <a>Shop</a>
-          <a>Design</a>
-          <a>About</a>
-          <a>Contact</a>
-        </nav>
         <div className="icons">🔍 🧡 🛒</div>
+        <div>
+          <nav className="nav">
+            <a>Shop</a>
+            <a>Design</a>
+            <a>About</a>
+            <a>Contact</a>
+          </nav>
+       </div> 
       </div>
      <div>
         <h2 className="subheading">DISCOVER OUR PRODUCTS</h2>
