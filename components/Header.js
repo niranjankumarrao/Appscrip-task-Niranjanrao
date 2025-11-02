@@ -3,6 +3,7 @@ export default function Header() {
   return (
     <header className="site-header">
       <div className="inner">
+        <div><h1>icon</h1></div>
         <div className="logo">Logo</div>
         <div className="icons">🔍 🧡 🛒</div>
         <div>
