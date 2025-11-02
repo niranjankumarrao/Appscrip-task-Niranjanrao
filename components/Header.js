@@ -12,6 +12,9 @@ export default function Header() {
         </nav>
         <div className="icons">🔍 🧡 🛒</div>
       </div>
+     <div>
+        <h2>DISCOVER OUR PRODUCTS</h2>
+     </div>
 
       <style jsx>{`
         .site-header { border-bottom:1px solid #eee; background:#fff; }
