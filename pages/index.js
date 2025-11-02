@@ -82,7 +82,6 @@ export default function Home({ products }) {
           </button>
 
           <div className="sort-block">
-            <div className="sort-label">RECOMMENDED</div>
             <div className="sort-control">
               <button className="sort-toggle" onClick={() => setShowSortOptions(s => !s)}>
                 {sortBy === 'recommended' ? 'Recommended' :
