@@ -14,6 +14,7 @@ export default function Header() {
       </div>
      <div>
         <h2 className="subheading">DISCOVER OUR PRODUCTS</h2>
+        <p className="subpara">Lorem ipsum dolor sit amet consectetur. Amet est posuere rhoncus scelerisque. Dolor integer scelerisque nibh amet mi ut elementum dolor.</p>
      </div>
 
       <style jsx>{`
