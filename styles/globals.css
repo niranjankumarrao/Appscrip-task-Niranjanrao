@@ -12,7 +12,81 @@ button { font-family:inherit; }
 
 /* Small, fresh styles for the page */
 .container { padding: 18px; }
+/* Basic styling for the entire header */
+.main-header {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  font-family: sans-serif; /* Example font */
+  padding: 10px 20px;
+}
 
+/* Top line of the header */
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px; /* Space between the two header rows */
+}
+
+/* Logo styling */
+.header-logo a {
+  font-weight: bold;
+  font-size: 24px;
+  color: #333;
+  text-decoration: none;
+}
+
+/* Right-side icons and language selector */
+.header-icons {
+  display: flex;
+  align-items: center;
+}
+
+.header-icons .icon {
+  font-size: 20px;
+  color: #555;
+  margin-right: 15px;
+}
+
+.header-icons .icon:hover {
+  color: #000;
+}
+
+.language-selector {
+  font-size: 14px;
+  font-weight: 500;
+  color: #555;
+  cursor: pointer;
+}
+
+/* Navigation section */
+.header-nav {
+  text-align: center; /* Center the nav links */
+}
+
+.header-nav ul {
+  display: flex;
+  justify-content: center; /* Center the list items horizontally */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header-nav ul li {
+  margin: 0 15px;
+}
+
+.header-nav ul li a {
+  text-decoration: none;
+  color: #555;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.header-nav ul li a:hover {
+  color: #000;
+}
 @media (min-width: 600px){
   .subheading {
   font-family: Simplon Norm;
