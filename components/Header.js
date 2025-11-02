@@ -3,13 +3,13 @@ export default function Header() {
   return (
     <header className="site-header">
       <header class="main-header">
-        <!-- Top header section with logo and user icons -->
+        <*/ Top header section with logo and user icons */>
         <div class="header-top">
           <div class="header-logo">
             <a href="#">LOGO</a>
           </div>
           <div class="header-icons">
-            <!-- These would be icon fonts or SVG images -->
+    </* These would be icon fonts or SVG images */>
             <a href="#"><span class="icon">🔍</span></a>
             <a href="#"><span class="icon">🛒</span></a>
             <a href="#"><span class="icon">👤</span></a>
@@ -19,7 +19,7 @@ export default function Header() {
           </div>
         </div>
       
-        <!-- Bottom header section with navigation links -->
+    </* Bottom header section with navigation links */>
         <nav class="header-nav">
           <ul>
             <li><a href="#">SHOP</a></li>
